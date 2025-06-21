@@ -15,4 +15,18 @@ Given a set of Earth observation images, some of which are noisy or overlapping,
 - Lightweight and does not rely on deep learning models
 
 ## 📂 File Structure
+- compute_similarity.py # Core script with the scoring function
+- images (1.png, 2.png, ..., 6.png) here
+- README.md # Project documentation
+- report.pdf # Project report 
+## 🚀 Usage
 
+Ensure you have the following installed:
+- Python 3.x
+- OpenCV (`pip install opencv-python`)
+- NumPy
+
+### Run:
+
+```bash
+python compute_similarity.py
